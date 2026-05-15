@@ -35,7 +35,7 @@ GO
 CREATE SCHEMA gold;
 GO
 
-CREATE TABLE gold.dim_customers(
+CREATE TABLE gold.dim_customers (
 	customer_key int,
 	customer_id int,
 	customer_number nvarchar(50),
@@ -50,14 +50,14 @@ CREATE TABLE gold.dim_customers(
 GO
 
 CREATE TABLE gold.dim_products(
-	product_key int ,
-	product_id int ,
-	product_number nvarchar(50) ,
-	product_name nvarchar(50) ,
-	category_id nvarchar(50) ,
-	category nvarchar(50) ,
-	subcategory nvarchar(50) ,
-	maintenance nvarchar(50) ,
+	product_key int,
+	product_id int,
+	product_number nvarchar(50),
+	product_name nvarchar(50),
+	category_id nvarchar(50),
+	category nvarchar(50),
+	subcategory nvarchar(50),
+	maintenance nvarchar(50),
 	cost int,
 	product_line nvarchar(50),
 	start_date date 
